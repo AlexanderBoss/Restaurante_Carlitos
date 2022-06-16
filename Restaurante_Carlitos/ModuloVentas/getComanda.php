@@ -22,7 +22,7 @@ elseif (isset($_POST['btnBuscarProducto'])) {
 } elseif (isset($_POST['btnCrearComanda'])) {
     include_once("controlComanda.php");
     $nuevoControl = new controlComanda;
-    $nuevoControl->CrearComanda($_POST['NumeroComanda'],$_POST['NumeroMesa'], $_POST['cliente'], $_SESSION['listaProductos']);
+    $nuevoControl->CrearComanda($_POST['NumeroComanda'],$_POST['NumeroMesa'], $_POST['cliente'], $_SESSION['listaProductos'] ?? NULL);
 
 } elseif (isset($_POST['btnAgregarProducto'])) {
     $productos = array("idProducto" => $_POST['idProducto'], "cantidad" => $_POST['cantidadProducto'], "precio"=> $_POST['precio']);

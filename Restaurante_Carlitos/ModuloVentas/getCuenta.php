@@ -1,11 +1,8 @@
 <?php
-
     $accion = "";
     if(isset($_GET['accion'])) {
-
         $accion = $_GET['accion'];
-
-        }  
+    }  
     if(isset($_POST["btnEmitirCuenta"])){
         include_once("controlCuenta.php");
         $accesoPrincipal = new controlCuenta;

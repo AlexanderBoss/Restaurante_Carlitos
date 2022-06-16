@@ -33,7 +33,7 @@ class registrarUsuario{
                             <option value="1">Cajero</option>
                         </select>
                         <label for="pass">Contraseña</label>
-                        <input class="input" type="text" name="pass" placeholder="Ingrese ruta de foto">
+                        <input class="input" type="text" name="pass" placeholder="Ingrese una contraseña">
                         <label for="estado">Estado</label>
                         <select name="estado">
                             <option value="1">Habilitado</option>

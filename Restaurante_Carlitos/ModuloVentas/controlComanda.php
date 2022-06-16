@@ -55,9 +55,9 @@ class controlComanda
     {
         $cantidadTotal = 0;
 
-        foreach ($arrayProductos as $producto) {
-            $cantidadTotal = $cantidadTotal + $producto['precio'] * $producto['cantidad'];
-        }
+        // foreach ($arrayProductos as $producto) {
+        //     $cantidadTotal = $cantidadTotal + $producto['precio'] * $producto['cantidad'];
+        // }
 
         return $cantidadTotal;
     }

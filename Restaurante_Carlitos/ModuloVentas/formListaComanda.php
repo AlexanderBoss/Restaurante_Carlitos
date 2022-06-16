@@ -54,7 +54,9 @@ class formListaComanda{
                         </tbody>
                     </table>
                 </div>
-            <a href="../shared/formBienvenida.php" class="btn btn-danger">Atras</a>
+                
+                   
+                
             </form>
         </body>
         <?php

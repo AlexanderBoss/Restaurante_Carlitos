@@ -4,7 +4,6 @@ class formAgregarProforma
     public function formAgregarProformaShow($fechaEmision)
     {
 ?>
-        <link rel="stylesheet" href="">
         <link rel="stylesheet" href="../styles/estilos_generales.css">
         <div class="container">
             <div class="row">
@@ -17,7 +16,7 @@ class formAgregarProforma
                     </form>
 
                   
-                    <form action="../ModuloVentas/getEmitirProforma.php" method="post">
+                    <form action="../ModuloVentas/getEmitirProforma.php" method="POST">
                         <input type="text" name="fechaEmision" value="<?php
 
                             echo $fechaEmision;
@@ -151,5 +150,5 @@ class formAgregarProforma
                 <?php
 
             }
-        }
+}
                 ?>

@@ -62,7 +62,8 @@
             $nuevoMensaje = new formMensajeSistema;
             $inicio = new formGestionarUsuarios;
             if($addUsuario==TRUE){
-                $this->obtenerUsuariosPrivilegios($idrolpriv);
+                // $this->obtenerUsuariosPrivilegios($idrolpriv);
+                
             }else{
                 $nuevoMensaje -> formMensajeSistemaShow("Error al Registrar","<a href='../shared/formBienvenida.php'>Bienvenida</a>");
             }

@@ -44,11 +44,17 @@ elseif (isset($_POST['btnCrearProforma'])) {
         $fechaEmision=date("Y-m-d");
     
     $formulario->formAgregarProformaShow($fechaEmision);
-} elseif (isset($_POST['btnModificarComanda'])) {
-    include_once("controlEmitirProforma.php");
-    $nuevoControl = new controlComanda;
-    $nuevoControl->ModificarComanda($_POST['idComanda']);
-} elseif (isset($_POST['btnEliminarProducto'])) {
+} 
+// elseif (isset($_POST['btnModificarComanda'])) {
+//     include_once("./controlEmitirProforma.php");
+//     include_once("./controlComanda.php");
+    
+//     $nuevoControl = new controlComanda;
+
+//     $nuevoControl->ModificarComandaShow($_POST['idComanda']);
+//     //$nuevoControl->ModificarComandaShow($_POST['idComanda']);
+// } 
+elseif (isset($_POST['btnEliminarProducto'])) {
     $filaProductos = $_POST['filaProductos'];
     array_splice($_SESSION['listaProductos'], $filaProductos,1);
     include_once("controlEmitirProforma.php");

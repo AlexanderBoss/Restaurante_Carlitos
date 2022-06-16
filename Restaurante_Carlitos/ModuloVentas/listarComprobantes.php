@@ -3,7 +3,6 @@
 class listarComprobantes {
 
     public function listarComprobantesShow($listaComprobante) {
-        
         ?>
         <!DOCTYPE html>
         <html>
@@ -62,9 +61,9 @@ class listarComprobantes {
                     ?>
                 </tbody>
                 </table>
-                <form action="../ModuloVentas/getComprobanteReembolso.php" method="POST" >
+                <!-- <form action="../moduloVentas/getComprobanteReembolso.php" method="POST" >
                 <input class="volver" type="submit" name="volver" value="volver">
-                </form>
+                </form> -->
         </body>
         </html>
 <?php

@@ -17,7 +17,7 @@ class formAutenticarUsuario
 				<div class="form-contenedor">
 					<form class="form1" id="form1" name="form1" method="post" action="../Restaurante_Carlitos/moduloSeguridad/getUsuario.php">
 						<div class="logo">
-							<img src="img/nombre_logo_2.png">
+							<img src="img/nombre_logo_2.png" style="width:250px;height: 250px; ">
 						</div>
 					
 						<table class="table-login">

@@ -21,20 +21,21 @@ class controlEmitirProforma
         $formulario->formAgregarProductoProformaShow($listaProductos);
     }
 
-    public function  ModificarComanda($idComanda)
-    {
-        include_once("../Modelo/entidadComanda.php");
-        include_once("../Modelo/entidadProducto.php");
-        include_once("../Modelo/entidadDetalleComanda.php");
-        $entidadComanda = new entidadComanda;
-        $entidadDetalleComanda = new entidadDetalleComanda;
-        $listarDetalleComanda = $entidadDetalleComanda -> listarDetalleComanda($idComanda);
-        $listaComandas = $entidadComanda->buscarComandaPorid($idComanda);
+    // public function  ModificarComanda($idComanda)
+    // {
+    //     include_once("../Modelo/entidadComanda.php");
+    //     include_once("../Modelo/entidadProducto.php");
+    //     include_once("../Modelo/entidadDetalleComanda.php");
+        
+    //     $entidadComanda = new entidadComanda;
+    //     $entidadDetalleComanda = new entidadDetalleComanda;
+    //     $listarDetalleComanda = $entidadDetalleComanda -> listarDetalleComanda($idComanda);
+    //     $listaComandas = $entidadComanda->buscarComandaPorid($idComanda);
 
-        include_once("../ModuloVentas/formAgregarComanda.php");
-        $formulario = new formAgregarComanda;
-        $formulario->formModificarComandaShow($listarDetalleComanda, $listaComandas);
-    }
+    //     include_once("./formAgregarProforma.php");
+    //     $formulario = new formAgregarComanda;
+    //     $formulario -> formModificarComandaShow($listarDetalleComanda, $listaComandas);
+    // }
     public function CrearProforma($fechaEmision,$fechaEntrega, $nombre,$apellido,$dni, $arrayProductos = [])
     {
         include_once('../Modelo/entidadProforma.php');
@@ -54,8 +55,8 @@ class controlEmitirProforma
 
         
 
-        $detalleProforma = new entidadDetalleProfoma;
-        $detalleproforma->insertarDetalleProforma(1, $arrayProductos);
+        $detalleProforma = new DetalleProforma;
+        $detalleproforma -> insertarDetalleProforma(1, $arrayProductos);
         unset($_SESSION['listaProductos']);
         $btn="Emitir Proforma";
         $this->listarProformaPorEstado($btn);

@@ -19,7 +19,7 @@ class formGestionarUsuarios
 
         <body>
             <div class="div-header">
-                 <img src="../img/logo_header.png" height="100" width="230">
+                 <img src="../img/logo_header.png" height="150px" width="400px">
             </div>
 
             <h1 class="titulo">Gestionar Usuarios</h1>

@@ -24,8 +24,9 @@
             $this->listarDisponibles();
         }
         public function regresarBienvenida(){
-            include_once("../shared/formBienvenida.php");
+            include_once("../ModuloSeguridad/formBienvenida.php");
         }
+
         public function regresarDisponibles(){
            $this->listarDisponibles();
             

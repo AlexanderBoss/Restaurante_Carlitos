@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/lib/codemirror.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/hint/show-hint.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/lint/lint.css?v=5.1.3">
-    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=3519803235ltr&server=1">
+    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=2006691312ltr&server=1">
     <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/printview.css?v=5.1.3" media="print" id="printcss">
     <title>localhost / 127.0.0.1 | phpMyAdmin 5.1.3</title>
     <script data-cfasync="false" type="text/javascript" src="js/vendor/jquery/jquery.min.js?v=5.1.3"></script>
@@ -260,7 +260,7 @@ $(function() {
       </div>
       <div id="pma_navigation_tree" class="list_container synced highlight autoexpand">
 
-  <div class="pma_quick_warp"><div class="drop_list"><button title="Tablas recientes" class="drop_button btn">Reciente</button><ul id="pma_recent_list"><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=usuario">`restaurante_carlitos`.`usuario`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=roles">`restaurante_carlitos`.`roles`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=boleta">`restaurante_carlitos`.`boleta`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=comanda">`restaurante_carlitos`.`comanda`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=detallecomanda">`restaurante_carlitos`.`detallecomanda`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=detalleproforma">`restaurante_carlitos`.`detalleproforma`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=privilegios">`restaurante_carlitos`.`privilegios`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=proforma">`restaurante_carlitos`.`proforma`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=producto">`restaurante_carlitos`.`producto`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=oficial_massimo&table=usuario">`oficial_massimo`.`usuario`</a></li></ul></div><div class="drop_list"><button title="Tablas favoritas" class="drop_button btn">Favoritas</button><ul id="pma_favorite_list"><li class="warp_link">No existen tablas favoritas.</li></ul></div><div class="clearfloat"></div></div>
+  <div class="pma_quick_warp"><div class="drop_list"><button title="Tablas recientes" class="drop_button btn">Reciente</button><ul id="pma_recent_list"><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=usuario">`restaurante_carlitos`.`usuario`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=producto">`restaurante_carlitos`.`producto`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=roles">`restaurante_carlitos`.`roles`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=boleta">`restaurante_carlitos`.`boleta`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=comanda">`restaurante_carlitos`.`comanda`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=detallecomanda">`restaurante_carlitos`.`detallecomanda`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=detalleproforma">`restaurante_carlitos`.`detalleproforma`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=privilegios">`restaurante_carlitos`.`privilegios`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=restaurante_carlitos&table=proforma">`restaurante_carlitos`.`proforma`</a></li><li class="warp_link"><a href="index.php?route=/table/recent-favorite&db=oficial_massimo&table=usuario">`oficial_massimo`.`usuario`</a></li></ul></div><div class="drop_list"><button title="Tablas favoritas" class="drop_button btn">Favoritas</button><ul id="pma_favorite_list"><li class="warp_link">No existen tablas favoritas.</li></ul></div><div class="clearfloat"></div></div>
 
 <div class="clearfloat"></div>
 
@@ -562,500 +562,6 @@ $.extend(defaultValues, {
                         Presione Enter para ejecutar la consulta                    </span>
                 </div>
                                                             <div class="message history collapsed hide select"
-                            targetdb="oficial_massimo" targettable="usuario">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>oficial_massimo</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `usuario`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="usuario">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `usuario`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="usuario">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `usuario`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="usuario">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `usuario`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="usuario">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `usuario`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="usuario">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `usuario`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="usuario">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `usuario`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="usuario">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `usuario`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="usuario">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `usuario`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="usuario">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `usuario`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="roles">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `roles`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="proforma">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `proforma`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="restaurante_carlitos" targettable="proforma">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>restaurante_carlitos</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `proforma`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
                             targetdb="restaurante_carlitos" targettable="proforma">
                             <div class="action_content">
                     <span class="action collapse">
@@ -1472,6 +978,500 @@ $.extend(defaultValues, {
                     </span>
             </div>
                             <span class="query">SELECT * FROM `roles`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="usuario">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `usuario`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="producto">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `producto`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="producto">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `producto`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="producto">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `producto`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="usuario">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `usuario`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="usuario">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `usuario`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="usuario">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `usuario`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="usuario">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `usuario`</span>
+                        </div>
+                                            <div class="message history collapsed hide"
+                            targetdb="restaurante_carlitos" targettable="usuario">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">DELETE FROM `usuario` WHERE `usuario`.`idusuario` = 3</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="usuario">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `usuario`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="usuario">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `usuario`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="usuario">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `usuario`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="restaurante_carlitos" targettable="usuario">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>restaurante_carlitos</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `usuario`</span>
                         </div>
                                             <div class="message history collapsed hide select"
                             targetdb="restaurante_carlitos" targettable="usuario">

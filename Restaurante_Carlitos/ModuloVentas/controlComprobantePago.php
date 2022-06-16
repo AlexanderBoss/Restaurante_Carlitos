@@ -33,7 +33,9 @@ class controladorComprobantePago{
             $ListaProforma = new Proforma;
             $objFormListarProforma = new formListarProforma;
             $lista = $ListaProforma ->listarProforma();
-            $objFormListarProforma->formListarProformaShow($lista);
+
+
+            $objFormListarProforma->formListarProformaShow($lista,NULL);
 
     
             
